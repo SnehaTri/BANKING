@@ -13,7 +13,6 @@ import java.util.Scanner;
  */
 
 
-
 class BankDemo{
      
     /**
@@ -52,6 +51,10 @@ class BankDemo{
          return custno;
      }     
      
+     /**
+      * This method will deposit money into the users account after asking for the money to be deposited and on 
+      * successful completion of deposition of money will display a message that money is successfully deposited. 
+      */
      void Deposit()
      {
          
@@ -63,7 +66,10 @@ class BankDemo{
              
      }
      
-     
+     /**
+      * The method will reduce the amount of money withdrawn from the account by the user by subtracting the amount 
+      * from available balance.Depending on the  
+      */
      void Withdraw()
      {
          
@@ -78,7 +84,9 @@ class BankDemo{
              else
                  amt -= wamt;
              }
-     
+     /**
+      * The method will return the amount of balance available in the account after asking for the account number from the user. 
+      */
      void Balance()
      {
          System.out.println(" Balance is: "+amt);
