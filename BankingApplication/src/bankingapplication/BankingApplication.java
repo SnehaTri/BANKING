@@ -32,6 +32,10 @@ class BankDemo{
       * 
       */
      Scanner s = new Scanner( System.in);
+     /**
+      * This method will open account for the customer after asking for the money to b entered in the account
+      * @return successful creation of account along with the money with which the account is created with 
+      */
      int open_acct()
      {   
          for(i=0; i<10; i++ ){
